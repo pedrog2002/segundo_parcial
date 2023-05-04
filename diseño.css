@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(243, 89, 89));
+    padding: 70px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.listas{
+    display: inline-block;
+    color: #fff;
+    padding: 30px;
+    font-weight: bold;
+}
+.listas a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 3px;
+}
+#banner{
+    margin-top: 100px;
+    height: 1004px;
+    background-image: url(img/13106906_5139993.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+}
+
+
+#inicio{
+    height: 920px;
+    background: url(img/tren.png);
+    background-position:right bottom;
+    background-repeat: no-repeat;
+}
+#calendario{
+    height: 920px;
+    background: url(img/fondo-ciudad.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#articulos{
+    height: 920px;
+    background: url(img/tren.png);
+    background-position:right bottom;
+    background-repeat: no-repeat;
+}
+#mas{
+    height: 920px;
+    background: url(img/fondo-ciudad.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+}
+.nombre {
+    margin-right: 250px; 
+  }
+  
+
+.red-social {
+    display: flex;
+    justify-content: space-between; 
+    width: 125px; 
+}
+.red-social a {
+    width: 200px; 
+    font-size: 50px;
+    padding: 25px;
+  }
+
+h1{
+    text-align: center;
+    padding-top: 132px;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(5, 0, 78), rgb(82, 192, 255));
+    color: transparent;
+	-webkit-background-clip: text;
+    font-family: 'Sigmar', cursive;
+
+}   
+
+h2{
+    font-size: 40px;
+    color: #fff;
+    justify-content: center;
+}
